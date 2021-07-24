@@ -24,6 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 with open('secret_key.txt') as f:
     SECRET_KEY = f.read().strip()
 
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -39,7 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog'
+    'blog',
+    'rest_framework',
+    'restapi',
 ]
 
 MIDDLEWARE = [
