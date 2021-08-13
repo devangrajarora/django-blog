@@ -16,7 +16,6 @@ posts = [
     }
 ]
 
-
 def hello(request):
     # print("Request: ", request.method)
     context = {
