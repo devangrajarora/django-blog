@@ -9,7 +9,7 @@ posts = [
         'date': 'July 21, 2021'
     },
     {
-        'title': 'Football',
+        'title': 'Football Cup',
         'author': 'Devang Arora',
         'content': 'Copa America',
         'date': 'July 22, 2021'
